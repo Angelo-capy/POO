@@ -11,4 +11,3 @@ try:
     cursor=conexion.cursor(buffered=True)
 except:
     print("Ocurrio un error con la base de datos... Verifique")
-

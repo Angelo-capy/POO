@@ -583,6 +583,7 @@ class View:
 
     @staticmethod
     def eliminar_camiones(ventana, id):
+#churn en un saas
         View.borrarPantalla(ventana)
         lbl_titulo=Label(ventana,text=f"...: Eliminar Camion {id} :...", justify="center")
         lbl_titulo.pack(pady=15)

@@ -70,3 +70,5 @@ class Controller:
     def borrar_camion(id):
         resultado = cochesBD.Camiones.eliminar(id)
         Controller.respuesta_sql(resultado)
+
+        #ola
